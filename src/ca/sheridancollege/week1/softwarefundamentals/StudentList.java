@@ -5,6 +5,7 @@
  */
 package ca.sheridancollege.week1.softwarefundamentals;
 
+import java.util.Scanner;
 /**
  *
  * @author sidhu376
@@ -24,9 +25,10 @@ public class StudentList {
         for (int i=0;i<sList.length;i++)
         {
             System.out.println(sList[i].getName());
-          
+            System.out.println("Hello World");
         }
         
     }
+  
     
 }
